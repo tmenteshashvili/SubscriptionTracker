@@ -1,9 +1,4 @@
-//
-//  ContentView.swift
-//  SubscriptionTracker
-//
-//  Created by Tako Menteshashvili on 07.02.24.
-//
+
 
 import SwiftUI
 
