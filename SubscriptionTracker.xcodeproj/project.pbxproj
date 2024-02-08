@@ -14,6 +14,8 @@
 		3C242C322B73E7D6008615FC /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C242C312B73E7D6008615FC /* WelcomeScreenView.swift */; };
 		3C242C342B73EA86008615FC /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C242C332B73EA86008615FC /* LogoView.swift */; };
 		3C242C362B73ED6A008615FC /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C242C352B73ED6A008615FC /* StartButton.swift */; };
+		3C8706052B751D1D0086755C /* Register1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8706042B751D1D0086755C /* Register1View.swift */; };
+		3C8706072B751FBF0086755C /* TextWithImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8706062B751FBF0086755C /* TextWithImageButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		3C242C312B73E7D6008615FC /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		3C242C332B73EA86008615FC /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		3C242C352B73ED6A008615FC /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		3C8706042B751D1D0086755C /* Register1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register1View.swift; sourceTree = "<group>"; };
+		3C8706062B751FBF0086755C /* TextWithImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithImageButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +61,10 @@
 		3C242C222B73E768008615FC /* SubscriptionTracker */ = {
 			isa = PBXGroup;
 			children = (
+				3C8706032B7519570086755C /* Views */,
+				3C8706022B7519310086755C /* Components */,
 				3C242C232B73E768008615FC /* SubscriptionTrackerApp.swift */,
 				3C242C252B73E768008615FC /* ContentView.swift */,
-				3C242C312B73E7D6008615FC /* WelcomeScreenView.swift */,
-				3C242C332B73EA86008615FC /* LogoView.swift */,
-				3C242C352B73ED6A008615FC /* StartButton.swift */,
 				3C242C272B73E76C008615FC /* Assets.xcassets */,
 				3C242C292B73E76C008615FC /* Preview Content */,
 			);
@@ -74,6 +77,25 @@
 				3C242C2A2B73E76C008615FC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C8706022B7519310086755C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3C242C332B73EA86008615FC /* LogoView.swift */,
+				3C242C352B73ED6A008615FC /* StartButton.swift */,
+				3C8706062B751FBF0086755C /* TextWithImageButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3C8706032B7519570086755C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C242C312B73E7D6008615FC /* WelcomeScreenView.swift */,
+				3C8706042B751D1D0086755C /* Register1View.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C242C322B73E7D6008615FC /* WelcomeScreenView.swift in Sources */,
+				3C8706072B751FBF0086755C /* TextWithImageButton.swift in Sources */,
 				3C242C342B73EA86008615FC /* LogoView.swift in Sources */,
 				3C242C362B73ED6A008615FC /* StartButton.swift in Sources */,
+				3C8706052B751D1D0086755C /* Register1View.swift in Sources */,
 				3C242C262B73E768008615FC /* ContentView.swift in Sources */,
 				3C242C242B73E768008615FC /* SubscriptionTrackerApp.swift in Sources */,
 			);
