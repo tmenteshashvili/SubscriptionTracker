@@ -48,7 +48,7 @@ struct SignUpView: View {
 
    
                     StartButton(titel: "Get started, it's free!", backgroundColor: Color("buttonColor"))
-                        .shadow(color: .orange, radius: 3)
+                        .shadow(color: .orange, radius: 2)
                         .offset(y: 50)
                     
 
@@ -56,15 +56,20 @@ struct SignUpView: View {
             }
                 .offset(y: -40)
                 .padding()
+                NavigationLink {
+                    SignInView()
+                } label: {
+                    
                 
-                VStack(spacing: 20.0) {
-                    Text("Do you have already an account?")
-                        .foregroundStyle(.white)
-                    
-                    StartButton(titel: "Sign up", backgroundColor: Color("button2Color"))
-                        .shadow(color: .gray, radius: 3)
-
-                    
+                
+                    VStack(spacing: 20.0) {
+                        Text("Do you have already an account?")
+                            .foregroundStyle(.white)
+                        
+                        StartButton(titel: "Sign up", backgroundColor: Color("button2Color"))
+                            .shadow(color: .gray, radius: 1.5)
+                        
+                    }
                 }
                 .offset(y: 320)
                 .padding()

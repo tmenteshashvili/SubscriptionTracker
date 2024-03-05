@@ -34,15 +34,13 @@ struct WelcomeScreenView: View {
                         Register1View()
                     } label: {
                         StartButton(titel: "Get Started!", backgroundColor: Color("buttonColor"))
-                            .shadow(color: .orange, radius: 3)
+                            .shadow(color: .orange, radius: 2)
 
                     }
                 
-                                        
-                    StartButton(titel: "I have an account", backgroundColor: Color("button2Color"))
-                        .shadow(color: .gray, radius: 3)
+
                 }
-                .offset(y: 300)
+                .offset(y: 320)
                 .padding()
 
             }

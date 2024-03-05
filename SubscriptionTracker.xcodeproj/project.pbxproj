@@ -17,6 +17,7 @@
 		3C6148502B8DFB83001F977D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C61484F2B8DFB83001F977D /* SignUpView.swift */; };
 		3C6148522B8DFE24001F977D /* EmptyWithBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6148512B8DFE24001F977D /* EmptyWithBorderButton.swift */; };
 		3C6148542B8E09F3001F977D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6148532B8E09F3001F977D /* SignInView.swift */; };
+		3C6148562B972BB0001F977D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6148552B972BB0001F977D /* MainView.swift */; };
 		3C8706052B751D1D0086755C /* Register1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8706042B751D1D0086755C /* Register1View.swift */; };
 		3C8706072B751FBF0086755C /* TextWithImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8706062B751FBF0086755C /* TextWithImageButton.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,7 @@
 		3C61484F2B8DFB83001F977D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		3C6148512B8DFE24001F977D /* EmptyWithBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyWithBorderButton.swift; sourceTree = "<group>"; };
 		3C6148532B8E09F3001F977D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		3C6148552B972BB0001F977D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3C8706042B751D1D0086755C /* Register1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register1View.swift; sourceTree = "<group>"; };
 		3C8706062B751FBF0086755C /* TextWithImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithImageButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +73,7 @@
 				3C8706022B7519310086755C /* Components */,
 				3C242C232B73E768008615FC /* SubscriptionTrackerApp.swift */,
 				3C242C252B73E768008615FC /* ContentView.swift */,
+				3C6148552B972BB0001F977D /* MainView.swift */,
 				3C242C272B73E76C008615FC /* Assets.xcassets */,
 				3C242C292B73E76C008615FC /* Preview Content */,
 			);
@@ -184,6 +187,7 @@
 				3C6148542B8E09F3001F977D /* SignInView.swift in Sources */,
 				3C6148502B8DFB83001F977D /* SignUpView.swift in Sources */,
 				3C6148522B8DFE24001F977D /* EmptyWithBorderButton.swift in Sources */,
+				3C6148562B972BB0001F977D /* MainView.swift in Sources */,
 				3C8706052B751D1D0086755C /* Register1View.swift in Sources */,
 				3C242C262B73E768008615FC /* ContentView.swift in Sources */,
 				3C242C242B73E768008615FC /* SubscriptionTrackerApp.swift in Sources */,

@@ -18,15 +18,15 @@ struct Register1View: View {
                 
                 VStack(spacing: 20.0) {
                     TextWithImageButton(imageName: "apple", title: "Sign up with Apple", background2Color: Color("button3"), foregColor: .white)
-                        .shadow(color: .black, radius: 4)
+                        .shadow(color: .black, radius: 1.5)
 
                     
                     TextWithImageButton(imageName: "Google", title: "Sign up with Google", background2Color: Color("button4"), foregColor: .black)
-                        .shadow(color: .white, radius: 4)
+                        .shadow(color: .white, radius: 1.5)
 
                     
                     TextWithImageButton(imageName: "Facebook", title: "Sign up with Facebook", background2Color: Color("button5"), foregColor: .white)
-                        .shadow(color: .blue, radius: 4)
+                        .shadow(color: .blue, radius: 1.5)
 
                     
                     
@@ -40,7 +40,7 @@ struct Register1View: View {
                         SignUpView()
                     } label: {
                         StartButton(titel: "Sign up with E-mail", backgroundColor: Color("button2Color"))
-                            .shadow(color: .gray, radius: 3)
+                            .shadow(color: .gray, radius: 1.5)
                     }
                    
                     
